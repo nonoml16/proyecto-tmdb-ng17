@@ -32,6 +32,10 @@ import { PageTrendingActorsComponent } from './ui/page-trending-actors/page-tren
 import { MoviesFilterComponent } from './components/movies-filter/movies-filter.component';
 import { AuthAprovedComponent } from './components/auth-aproved/auth-aproved.component';
 import { PageProfileComponent } from './ui/page-profile/page-profile.component';
+import { MoviesListProfileComponent } from './components/movies-list-profile/movies-list-profile.component';
+import { TvShowListProfileComponent } from './components/tv-show-list-profile/tv-show-list-profile.component';
+import { MovieRatedListProfileComponent } from './components/movie-rated-list-profile/movie-rated-list-profile.component';
+import { TvShowRatedListProfileComponent } from './components/tv-show-rated-list-profile/tv-show-rated-list-profile.component';
 
 @NgModule({
   declarations: [
@@ -65,7 +69,11 @@ import { PageProfileComponent } from './ui/page-profile/page-profile.component';
     PageTrendingActorsComponent,
     MoviesFilterComponent,
     AuthAprovedComponent,
-    PageProfileComponent
+    PageProfileComponent,
+    MoviesListProfileComponent,
+    TvShowListProfileComponent,
+    MovieRatedListProfileComponent,
+    TvShowRatedListProfileComponent
   ],
   imports: [
     BrowserModule,
